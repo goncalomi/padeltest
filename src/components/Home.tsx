@@ -29,7 +29,7 @@ export interface ChatNotifciations {
 export const Home: React.FC<HomeProps> = ({ user }) => {
     const [notifications, setNotifications] = useState<CommonNotifications[]>([])
     const [chatNotifications, setChatNotifications] = useState<ChatNotifciations[]>([])
-    const changed = 'chekcout stage'
+    const changed = 'chekcout stage 3'
     // this is a hotfix 3
     // const {
     //   sendJsonMessage,
